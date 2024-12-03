@@ -1,10 +1,9 @@
 body {
-    background-color: rgb(134, 35, 94);
-
+  background-color: rgb(227, 26, 147);
   }
   
   h1 {
-    color: rgb(160, 12, 74);
+    color: rgb(178, 30, 92);
     text-align: center;
     text-decoration:underline; 
   }
@@ -12,7 +11,7 @@ body {
   p {
     font-family: cursive;
     font-size: 20px;
-    color: rgb(110, 10, 74);
+    color: rgb(221, 85, 171);
     text-align: center;
   }
 

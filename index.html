@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons are cool for suprise messages </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <form action="#" method="POST">
+        <h1 style="text-align:center;">lets play</h1>
+    
+    <!-- Button for event listener -->
+    <button type="hoverButton" onclick="alert('Hello Friends!')">Click Me!</button>
+<!-- Inline event handling -->
+<button onclick="alert('Button clicked (Inline Method)');">Click me (Inline)</button>
+
+<!-- Button for event listener -->
+<button id="clickButton">Click me (Listener)</button>
+
+
+    <!--Keyboard Events-->
+    <p id="keyboard message">press something on your keyboard</p>
+   <input type ="text" id= "keyboard" placeholder="type your message here ">
+    
+    <!--Form Events-->
+    <p>Hey You What's your name and Age ?</p>
+   <form id="myForm">
+        <label for="name"> Enter your first name:</label>
+        <input type="text" id="name" name="name" placeholder="waiting to see your name ">
+
+<!--Focus events -->
+        <label for="username"> Enter your funny name:</label>
+        <input type="text" id="funny name " onfocus="handleFocus();">
+        <label for="ageInput">Enter your age:</label>
+    <input type="text" id="ageInput" onblur="validateAge()">
+    <button type="submit">Submit</button>
+
+<!--event delegation-->
+<h1>which one you like ?:</h1>
+    <ul id="foodList">
+        <li>Burger</li>
+        <li>Hotdog</li>
+        <li>Pizza</li>
+        <li>Nuggets</li>
+        <li>Fries</li>
+    <p id="selectfood"></p>
+
+    <footer>
+        <p>Hope you had fun playing!</p>
+      </footer>
+    </body>
+</html>

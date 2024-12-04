@@ -66,7 +66,7 @@ function validateAge() {
         age.style.backgroundColor = 'salmon'; // Indicates potential issue
         console.log('Check age, may be under 18.');
     }
-}
+
 const list= document.getElementById('foodlist');
 
 list.addEventListener('click'), function(event) {
@@ -75,5 +75,5 @@ list.addEventListener('click'), function(event) {
        
         
     } 
+   }
 }
-        

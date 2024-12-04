@@ -59,7 +59,7 @@ function validateAge() {
     var ageValue = parseInt(age.value, 10);
 
     // Check if the age is 18 or older
-    if (ageValue >= 18) {
+    if (ageValue >= 19) {
         age.style.backgroundColor = 'lightgreen'; // Indicates valid age
         console.log('Eligible age confirmed.');
     } else {
